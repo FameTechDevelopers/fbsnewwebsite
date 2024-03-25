@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaDotCircle } from "react-icons/fa";
-import graphicsDesign from "../assets/Services/graphics-design.JPG"
-import Image from "next/image";
+// import graphicsDesign from "../assets/Services/graphics-design.JPG"
+// import Image from "next/image";
 
 const GraphicsDesignTemplate = () => {
   return (
@@ -36,7 +36,8 @@ const GraphicsDesignTemplate = () => {
       </div>
     </div>
     <div className="col-span-4">
-    <Image className=" w-[90%] ml-auto rounded-2xl" src={graphicsDesign} />
+      Under work
+    {/* <Image className=" w-[90%] ml-auto rounded-2xl" src={graphicsDesign} /> */}
     </div>
   </div>
   )
