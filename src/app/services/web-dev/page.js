@@ -1,11 +1,8 @@
 import React from "react";
-import webmock from "@/assets/Service-mocks/webmock.webp";
+import webmock from "../../../assets/Service-mocks/webmock.webp";
 import Image from "next/image";
-import webmock2 from "@/assets/Service-mocks/img-mockup.PNG";
+import webmock2 from "../../../assets/Service-mocks/img-mockup.png";
 import { MdWeb } from "react-icons/md";
-import { MdScreenSearchDesktop } from "react-icons/md";
-import { VscGithubAction } from "react-icons/vsc";
-import { BsRocket } from "react-icons/bs";
 
 const page = () => {
   return (
@@ -206,9 +203,7 @@ const page = () => {
         </div>
       </div>
 
-      <div>
-        
-      </div>
+      <div></div>
     </>
   );
 };

@@ -1,15 +1,15 @@
 import React from "react";
 
-import img1 from "@/assets/mobDev/ip1.png";
-import img2 from "@/assets/mobDev/ip2.png";
-import img3 from "@/assets/mobDev/ip3.png";
-import img4 from "@/assets/mobDev/ip4.png";
-import img5 from "@/assets/mobDev/ip5.png";
-import img6 from "@/assets/mobDev/ip6.png";
-import img7 from "@/assets/mobDev/ip7.png";
-import img8 from "@/assets/mobDev/ip8.png";
-import img9 from "@/assets/mobDev/ip9.png";
-import img10 from "@/assets/mobDev/ip10.png";
+import img1 from "../assets/mobDev/ip1.png";
+import img2 from "../assets/mobDev/ip2.png";
+import img3 from "../assets/mobDev/ip3.png";
+import img4 from "../assets/mobDev/ip4.png";
+import img5 from "../assets/mobDev/ip5.png";
+import img6 from "../assets/mobDev/ip6.png";
+import img7 from "../assets/mobDev/ip7.png";
+import img8 from "../assets/mobDev/ip8.png";
+import img9 from "../assets/mobDev/ip9.png";
+import img10 from "../assets/mobDev/ip10.png";
 import Image from "next/image";
 
 const MobDevProjects = () => {

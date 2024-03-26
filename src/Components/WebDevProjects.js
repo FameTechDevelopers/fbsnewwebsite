@@ -1,18 +1,18 @@
 import React from "react";
-import Image1 from "@/assets/webdev/laptop (6).png";
-import Image2 from "@/assets/webdev/laptop (7).png";
-import Image3 from "@/assets/webdev/laptop (8).png";
-import Image4 from "@/assets/webdev/laptop (9).png";
-import Image5 from "@/assets/webdev/laptop (12).png";
-import Image6 from "@/assets/webdev/laptop (13).png";
-import Image7 from "@/assets/webdev/laptop (14).png";
-import Image8 from "@/assets/webdev/laptop (15).png";
-import Image9 from "@/assets/webdev/laptop (16).png";
-import Image10 from "@/assets/webdev/laptop (17).png";
-import Image11 from "@/assets/webdev/laptop (18).png";
-import Image12 from "@/assets/webdev/laptop (19).png";
-import Image13 from "@/assets/webdev/laptop (20).png";
-import Image14 from "@/assets/webdev/laptop (21).png";
+import Image1 from "../assets/webdev/laptop (6).png";
+import Image2 from "../assets/webdev/laptop (7).png";
+import Image3 from "../assets/webdev/laptop (8).png";
+import Image4 from "../assets/webdev/laptop (9).png";
+import Image5 from "../assets/webdev/laptop (12).png";
+import Image6 from "../assets/webdev/laptop (13).png";
+import Image7 from "../assets/webdev/laptop (14).png";
+import Image8 from "../assets/webdev/laptop (15).png";
+import Image9 from "../assets/webdev/laptop (16).png";
+import Image10 from "../assets/webdev/laptop (17).png";
+import Image11 from "../assets/webdev/laptop (18).png";
+import Image12 from "../assets/webdev/laptop (19).png";
+import Image13 from "../assets/webdev/laptop (20).png";
+import Image14 from "../assets/webdev/laptop (21).png";
 import Image from "next/image";
 
 const WebDevProjects = () => {

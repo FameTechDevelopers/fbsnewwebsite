@@ -1,18 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import fbr from "../assets/Recognition/fbr.PNG";
+import fbr from "../assets/Recognition/fbr.png";
 import pash from "../assets/Recognition/pash.webp";
-import psb from "../assets/Recognition/pseb.PNG";
+import psb from "../assets/Recognition/pseb.png";
 import sepLogo from "../assets/Recognition/sep-logo.webp";
 import trustPilot from "../assets/Recognition/topRated2.png";
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 const Recognitions = () => {
   return (
     <div className=" recognitions  my-16 py-12">

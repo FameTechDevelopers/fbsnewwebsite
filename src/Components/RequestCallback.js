@@ -6,7 +6,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "./ui/sheet";
 
 const RequestCallback = () => {
   return (

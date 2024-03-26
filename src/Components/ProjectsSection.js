@@ -1,5 +1,5 @@
 import React from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useState } from "react";
 import MobileDevTemplate from "./MobileDevTemplate";
 import WebDevTemplate from "./WebDevTemplate";
 import DigitalMarketingTemplate from "./DigitalMarketingTemplate";
@@ -7,9 +7,14 @@ import AnimationTemplate from "./AnimationTemplate";
 import GraphicsDesignTemplate from "./GraphicsDesignTemplate";
 
 const ProjectsSection = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
   return (
     <>
-      <div id="services" className=" md:w-[40%] mx-auto mt-20 flex items-center justify-center">
+      <div
+        id="services"
+        className=" md:w-[40%] mx-auto mt-20 flex items-center justify-center"
+      >
         <h2 className=" text-center leading-10 font-bold text-[1.9rem]">
           From Mobile Apps, Business Dashboards and E-Commerce Stores to
           Remarkable Web Apps We Do it All!
@@ -25,42 +30,81 @@ const ProjectsSection = () => {
           industry.
         </p>
       </div>
-      <div className=" flex mb-16 justify-center items-center w-[80%] mx-auto">
-        <div>
-          <Tabs defaultValue="account" className="">
-            <TabsList>
-              <TabsTrigger className="text-[16px]" value="mobile-dev">
-                Mobile Development
-              </TabsTrigger>
-              <TabsTrigger className="text-[16px]" value="web-dev">
-                Web Development
-              </TabsTrigger>
-              <TabsTrigger className="text-[16px]" value="digital-marketing">
-                Digital Marketing
-              </TabsTrigger>
-              <TabsTrigger className="text-[16px]" value="animation">
-                2D / 3D Animation
-              </TabsTrigger>
-              <TabsTrigger className="text-[16px]" value="graphics-design">
-                Graphics Design
-              </TabsTrigger>
-            </TabsList>
-            <TabsContent className="" value="mobile-dev">
-              <MobileDevTemplate />
-            </TabsContent>
-            <TabsContent value="web-dev">
-              <WebDevTemplate />
-            </TabsContent>
-            <TabsContent value="digital-marketing">
-              <DigitalMarketingTemplate />
-            </TabsContent>
-            <TabsContent value="animation">
-              <AnimationTemplate />
-            </TabsContent>
-            <TabsContent value="graphics-design">
-              <GraphicsDesignTemplate />
-            </TabsContent>
-          </Tabs>
+      <div className=" md:container pb-16 mx-auto px-8">
+        <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] z-30 rounded-full">
+          <button
+            className={`${
+              activeTab === 0 ? "bg-[#002244] font-[poppins] text-white" : ""
+            } 
+             py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
+            type="button"
+            onClick={() => {
+              setActiveTab(0);
+            }}
+          >
+            Mobile Development
+          </button>
+          <button
+            className={`${
+              activeTab === 1 ? " bg-[#002244] font-[poppins] text-white" : ""
+            } 
+        py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
+            type="button"
+            onClick={() => {
+              setActiveTab(1);
+            }}
+          >
+            Web Development
+          </button>
+          <button
+            className={`${
+              activeTab === 2 ? "bg-[#002244] font-[poppins] text-white" : ""
+            } 
+        py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
+            type="button"
+            onClick={() => {
+              setActiveTab(2);
+            }}
+          >
+            Digital Marketing
+          </button>
+          <button
+            className={`${
+              activeTab === 3 ? "  bg-[#002244] font-[poppins] text-white" : ""
+            } 
+        py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
+            type="button"
+            onClick={() => {
+              setActiveTab(3);
+            }}
+          >
+            2D / 3D Animation
+          </button>
+          <button
+            className={`${
+              activeTab === 4 ? "  bg-[#002244] font-[poppins] text-white" : ""
+            } 
+        py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
+            type="button"
+            onClick={() => {
+              setActiveTab(4);
+            }}
+          >
+            Graphic Design
+          </button>
+        </div>
+        <div className=" ">
+          {activeTab == 0 ? (
+            <MobileDevTemplate />
+          ) : activeTab == 1 ? (
+            <WebDevTemplate />
+          ) : activeTab == 2 ? (
+            <DigitalMarketingTemplate />
+          ) : activeTab == 3 ? (
+            <AnimationTemplate />
+          ) : activeTab == 4 ? (
+            <GraphicsDesignTemplate />
+          ) : null}
         </div>
       </div>
     </>

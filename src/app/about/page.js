@@ -1,11 +1,11 @@
 import React from "react";
-import { MdWeb } from "react-icons/md";
-import missionIcon from "@/assets/About/mission.PNG";
-import businessIcon from "@/assets/About/business.PNG";
-import visionIcon from "@/assets/About/vision.PNG";
+// import { MdWeb } from "react-icons/md";
+import missionIcon from "../../assets/About/mission.png";
+import businessIcon from "../../assets/About/business.png";
+import visionIcon from "../../assets/About/vision.png";
 import Image from "next/image";
-import Contact from "@/Sections/Contact";
-import ContactDrawer from "@/Components/ContactDrawer";
+import Contact from "../../Sections/Contact";
+import ContactDrawer from "../../Components/ContactDrawer";
 
 const About = () => {
   return (

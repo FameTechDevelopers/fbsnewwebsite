@@ -1,20 +1,16 @@
 "use client"
 
-import Image from "next/image";
-import heroImage from "../assets/main-banner.jpg";
-import RequestCallback from "@/Components/RequestCallback";
-import Benefits from "@/Components/Benefits";
-import ProjectsSection from "@/Components/ProjectsSection";
-import VideoSection from "@/Sections/VideoSection";
+import Benefits from "../Components/Benefits";
+import ProjectsSection from "../Components/ProjectsSection";
+import VideoSection from "../Sections/VideoSection";
 import { useRef } from "react";
-import Recognitions from "@/Sections/Recognitions";
-import Testimonials from "@/Sections/Testimonials";
-import Faqs from "@/Sections/Faqs";
-import Contact from "@/Sections/Contact";
-import Portofolio from "@/Sections/Portofolio";
-import Pricing from "@/Sections/Pricing";
-import Process from "@/Sections/Process";
-import ContactDrawer from "@/Components/ContactDrawer";
+import Recognitions from "../Sections/Recognitions";
+import Testimonials from "../Sections/Testimonials";
+import Faqs from "../Sections/Faqs";
+import Contact from "../Sections/Contact";
+import Portofolio from "../Sections/Portofolio";
+import Pricing from "../Sections/Pricing";
+import Process from "../Sections/Process";
 
 export default function Home() {
   const scrollRef = useRef(null);

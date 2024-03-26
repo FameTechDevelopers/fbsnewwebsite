@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "@/assets/testmonials.JPG";
+import img1 from "../assets/testmonials.jpg";
 import Image from "next/image";
 
 import {
@@ -8,7 +8,9 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/Components/ui/carousel";
+
+// import { Carousel } from "@/Components/ui/carousel";
 
 const Testimonials = () => {
   return (

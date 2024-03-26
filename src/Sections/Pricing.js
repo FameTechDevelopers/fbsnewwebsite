@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import WebsitePricing from "@/Components/WebsitePricing";
 
-
 const Pricing = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
@@ -10,6 +9,7 @@ const Pricing = () => {
       <h2 className=" text-center leading-10 font-bold text-[2.5rem]">
         Pricing
       </h2>
+
       <div className="  flex-col hidden md:flex justify-center  p-4 ml-auto font-bold items-center"></div>
       <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] z-30 rounded-full">
         <button
@@ -50,9 +50,7 @@ const Pricing = () => {
         </button>
         <button
           className={`${
-            activeTab === 3
-              ? "  bg-[#002244] font-[poppins] text-white"
-              : ""
+            activeTab === 3 ? "  bg-[#002244] font-[poppins] text-white" : ""
           } 
         py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import mock from "../assets/mock-png.PNG";
+import mock from "../assets/mock-png.png";
 import { BsTelephoneOutbound } from "react-icons/bs";
 import { FaRegAddressBook } from "react-icons/fa";
 import { FaRegPaperPlane } from "react-icons/fa";

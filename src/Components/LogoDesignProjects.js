@@ -1,12 +1,12 @@
 import React from 'react'
-import img1 from "@/assets/logoDesign/ezgif.com-webp-to-png (1).png"
-import img2 from "@/assets/logoDesign/ezgif.com-webp-to-png (2).png"
-import img3 from "@/assets/logoDesign/ezgif.com-webp-to-png (3).png"
-import img4 from "@/assets/logoDesign/ezgif.com-webp-to-png (4).png"
-import img5 from "@/assets/logoDesign/ezgif.com-webp-to-png.png"
-import img6 from "@/assets/logoDesign/CIRCLE-OF-LIFE-THERAPY-LOGO.png"
-import img7 from "@/assets/logoDesign/IOTA-OMICRON-LOGO-2.jpg"
-import img8 from "@/assets/logoDesign/TRUE-NARRATIVE-LOGO-4.png"
+import img1 from "../assets/logoDesign/ezgif.com-webp-to-png (1).png"
+import img2 from "../assets/logoDesign/ezgif.com-webp-to-png (2).png"
+import img3 from "../assets/logoDesign/ezgif.com-webp-to-png (3).png"
+import img4 from "../assets/logoDesign/ezgif.com-webp-to-png (4).png"
+import img5 from "../assets/logoDesign/ezgif.com-webp-to-png.png"
+import img6 from "../assets/logoDesign/CIRCLE-OF-LIFE-THERAPY-LOGO.png"
+import img7 from "../assets/logoDesign/IOTA-OMICRON-LOGO-2.jpg"
+import img8 from "../assets/logoDesign/TRUE-NARRATIVE-LOGO-4.png"
 import Image from 'next/image'
 
 const LogoDesignProjects = () => {

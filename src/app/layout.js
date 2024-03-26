@@ -2,9 +2,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Navbar from "@/Components/Navbar";
-import Footer from "@/Sections/Footer";
-import RequestCallback from "@/Components/RequestCallback";
+import Navbar from "../Components/Navbar";
+import Footer from "../Sections/Footer";
+import RequestCallback from "../Components/RequestCallback";
 
 const inter = Inter({ subsets: ["latin"] });
 

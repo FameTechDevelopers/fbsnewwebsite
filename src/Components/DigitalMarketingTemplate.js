@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import { FaDotCircle } from "react-icons/fa";
-// import digitalMarketing from "../assets/Services/digital-marketing.JPG"
-// import Image from "next/image";
+import digitalMarketing from "../assets/Services/digital-marketing.jpg"
+import Image from "next/image";
 
 const DigitalMarketingTemplate = () => {
   return (
@@ -15,19 +15,27 @@ const DigitalMarketingTemplate = () => {
         <div className=" flex flex-wrap justify-between pt-5">
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">Requirement Analysis through a questionnaire</p>
+            <p className=" text-[15px]">
+              Requirement Analysis through a questionnaire
+            </p>
           </div>
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">Detailed Level of Efforts Estimate (for transparent costing)</p>
+            <p className=" text-[15px]">
+              Detailed Level of Efforts Estimate (for transparent costing)
+            </p>
           </div>
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">Prototype of App Design with Admin panel for KPI measurement</p>
+            <p className=" text-[15px]">
+              Prototype of App Design with Admin panel for KPI measurement
+            </p>
           </div>
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">Testing, Technical and milestone deliveries documents</p>
+            <p className=" text-[15px]">
+              Testing, Technical and milestone deliveries documents
+            </p>
           </div>
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
@@ -36,11 +44,10 @@ const DigitalMarketingTemplate = () => {
         </div>
       </div>
       <div className="col-span-4">
-        Under work
-      {/* <Image className=" w-[90%] ml-auto rounded-2xl" src={digitalMarketing} /> */}
+        <Image className=" w-[90%] ml-auto rounded-2xl" src={digitalMarketing} />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default DigitalMarketingTemplate
+export default DigitalMarketingTemplate;

@@ -3,7 +3,7 @@ import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@/components/ui/resizable";
+} from "@/Components/ui/resizable";
 
 const VideoSection = () => {
   return (
