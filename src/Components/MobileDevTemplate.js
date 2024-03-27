@@ -8,11 +8,7 @@ const MobileDevTemplate = () => {
   return (
     <div className=" grid grid-cols-12 mt-12">
       <div className=" col-span-8 pr-20">
-        <h2 className=" text-[26px] font-[500] mt-12 mb-5">App Development Package</h2>
-        <p className=" text-[20px] font-[500]">
-          Our App development package includes all; Requirement Analysis,
-          Designing, Development, customer support, and detailed Documentation.
-        </p>
+        <h2 className=" text-[26px] font-[500] mt-12 mb-2">Our App Development Service</h2>
         <div className=" flex flex-wrap justify-between pt-5">
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />

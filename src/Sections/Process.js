@@ -6,7 +6,7 @@ import { BsRocket } from "react-icons/bs";
 const Process = () => {
   return (
     <div>
-      <div className=" w-[90%] mx-auto relative my-24">
+      <div className=" w-[90%] mx-auto relative my-6">
         <div className="grid grid-cols-12">
           <div className="col-span-12  m-2 rounded-3xl bg-[#009fd4] md:col-span-3 flex p-12 flex-col justify-center items-center">
             <MdScreenSearchDesktop className=" text-[86px] mb-1 text-white" />

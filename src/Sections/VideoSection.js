@@ -7,7 +7,7 @@ import {
 
 const VideoSection = () => {
   return (
-    <div className=" mt-32 mb-16">
+    <div className=" mt-16 mb-16">
       <div className="flex h-full items-center justify-center">
         <video
           loop

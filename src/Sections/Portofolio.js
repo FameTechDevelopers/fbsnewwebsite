@@ -10,7 +10,7 @@ const Portofolio = () => {
 
   return (
     <>
-      <div id="projects" className=" mt-14 mb-32">
+      <div id="projects" className=" mt-14 mb-16">
         <div className=" md:w-[40%] mx-auto mt-20 flex items-center justify-center">
           <h2 className=" text-center leading-10 font-bold text-[2.5rem]">
             Our <span className=" text-[#009fd4] font-[800]">Work</span>

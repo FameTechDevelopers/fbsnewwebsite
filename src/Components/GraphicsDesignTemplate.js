@@ -9,39 +9,29 @@ const GraphicsDesignTemplate = () => {
   return (
     <div className=" grid grid-cols-12 mt-12">
       <div className=" col-span-8 pr-20">
-        <h2 className=" text-[26px] font-[500] mt-12 mb-5">Graphics Design</h2>
-        <p className=" text-[20px] font-[500]">
-          Our App development package includes all; Requirement Analysis,
-          Designing, Development, customer support, and detailed Documentation.
-        </p>
+        <h2 className=" text-[26px] font-[500] mt-12 mb-2">
+          Our Graphic Design service provides
+        </h2>
         <div className=" flex flex-wrap justify-between pt-5">
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">
-              Requirement Analysis through a questionnaire
-            </p>
+            <p className=" text-[15px]">Creative Conceptualization</p>
           </div>
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">
-              Detailed Level of Efforts Estimate (for transparent costing)
-            </p>
+            <p className=" text-[15px]">Customized Visual Identity Design</p>
           </div>
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">
-              Prototype of App Design with Admin panel for KPI measurement
-            </p>
+            <p className=" text-[15px]">Branding and Logo Creation</p>
           </div>
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">
-              Testing, Technical and milestone deliveries documents
-            </p>
+            <p className=" text-[15px]">Print and Digital Media Design</p>
           </div>
           <div className="flex items-center my-2">
             <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">World class customer support</p>
+            <p className=" text-[15px]">Revision and Finalization Support</p>
           </div>
         </div>
       </div>

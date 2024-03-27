@@ -8,7 +8,7 @@ import trustPilot from "../assets/Recognition/topRated2.png";
 
 const Recognitions = () => {
   return (
-    <div className=" recognitions  my-16 py-12">
+    <div className=" recognitions mt mb-16 py-12">
       <div className=" grid grid-cols-12 w-[80%] mx-auto">
         <div className="col-span-6 mx-auto flex items-center justify-center">
           <h2 className=" text-white leading-10 mb-10 font-bold text-[1.9rem]">

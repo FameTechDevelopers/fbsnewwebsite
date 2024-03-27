@@ -23,11 +23,9 @@ const ProjectsSection = () => {
       </div>
       <div className=" w-[80%] mt-6 mb-12 mx-auto flex items-center justify-center">
         <p className=" text-center text-[16px]">
-          Our experts know what it takes to offer you an all-inclusive Apps
-          designing and development services. Working with a company like eForte
-          with a decade of experience entitles you to a diverse team of experts
-          who are the connoisseurs of the software designing and development
-          industry.
+          At Fame Business Solutions, our experienced team specializes in
+          all-inclusive app design and development services. With a decade of
+          expertise, we offer top-notch solutions tailored to your needs.
         </p>
       </div>
       <div className=" md:container pb-16 mx-auto px-8">
