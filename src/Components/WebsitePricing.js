@@ -56,7 +56,7 @@ const WebsitePricing = () => {
             >
               <div>
                 <div class="flex gap-4 justify-center">
-                  <p class="font-medium font-[poppins] text-[20px] mb-2">
+                  <p class="font-medium  text-[20px] mb-2">
                     Basic Website
                   </p>
                 </div>
@@ -64,7 +64,7 @@ const WebsitePricing = () => {
                 <p class="opacity-60 text-center"></p>
                 <div class="flex gap-4 justify-center">
                   <div class="flex flex-col items-center my-8">
-                    <p class="font-extrabold text-[#002244] font-[poppins] text-[26px]">
+                    <p class="font-extrabold text-[#002244]  text-[26px]">
                       $199.00
                     </p>
                   </div>
@@ -119,7 +119,7 @@ const WebsitePricing = () => {
             >
               <div>
                 <div class="flex gap-4 justify-center">
-                  <p class="font-medium font-[poppins] text-[20px] mb-2">
+                  <p class="font-medium  text-[20px] mb-2">
                     Startup Website
                   </p>
                 </div>
@@ -127,7 +127,7 @@ const WebsitePricing = () => {
                 <p class="opacity-60 text-center"></p>
                 <div class="flex gap-4 justify-center">
                   <div class="flex flex-col items-center my-8">
-                    <p class="font-extrabold text-[#002244] font-[poppins] text-[26px]">
+                    <p class="font-extrabold text-[#002244]  text-[26px]">
                       $699.00
                     </p>
                   </div>
@@ -184,7 +184,7 @@ const WebsitePricing = () => {
             >
               <div>
                 <div class="flex gap-4 justify-center">
-                  <p class="font-medium font-[poppins] text-[20px] mb-2">
+                  <p class="font-medium  text-[20px] mb-2">
                     Professional Website
                   </p>
                 </div>
@@ -192,7 +192,7 @@ const WebsitePricing = () => {
                 <p class="opacity-60 text-center"></p>
                 <div class="flex gap-4 justify-center">
                   <div class="flex flex-col items-center my-8">
-                    <p class="font-extrabold text-[#002244] font-[poppins] text-[26px]">
+                    <p class="font-extrabold text-[#002244]  text-[26px]">
                       $999.00
                     </p>
                   </div>
@@ -248,7 +248,7 @@ const WebsitePricing = () => {
             >
               <div>
                 <div class="flex gap-4 justify-center">
-                  <p class="font-medium font-[poppins] text-[20px] mb-2">
+                  <p class="font-medium  text-[20px] mb-2">
                     E-Commerce Website
                   </p>
                 </div>
@@ -256,7 +256,7 @@ const WebsitePricing = () => {
                 <p class="opacity-60 text-center"></p>
                 <div class="flex gap-4 justify-center">
                   <div class="flex flex-col items-center my-8">
-                    <p class="font-extrabold text-[#002244] font-[poppins] text-[26px]">
+                    <p class="font-extrabold text-[#002244]  text-[26px]">
                       $1499.00
                     </p>
                   </div>
@@ -316,7 +316,7 @@ const WebsitePricing = () => {
             >
               <div>
                 <div class="flex gap-4 justify-center">
-                  <p class="font-medium font-[poppins] text-[20px] mb-2">
+                  <p class="font-medium  text-[20px] mb-2">
                     Corporate Website
                   </p>
                 </div>
@@ -324,7 +324,7 @@ const WebsitePricing = () => {
                 <p class="opacity-60 text-center"></p>
                 <div class="flex gap-4 justify-center">
                   <div class="flex flex-col items-center my-8">
-                    <p class="font-extrabold text-[#002244] font-[poppins] text-[26px]">
+                    <p class="font-extrabold text-[#002244]  text-[26px]">
                       $1999.00
                     </p>
                   </div>
@@ -389,7 +389,7 @@ const WebsitePricing = () => {
             >
               <div>
                 <div class="flex gap-4 justify-center">
-                  <p class="font-medium font-[poppins] text-[20px] mb-2">
+                  <p class="font-medium  text-[20px] mb-2">
                     Platinum Website
                   </p>
                 </div>
@@ -397,7 +397,7 @@ const WebsitePricing = () => {
                 <p class="opacity-60 text-center"></p>
                 <div class="flex gap-4 justify-center">
                   <div class="flex flex-col items-center my-8">
-                    <p class="font-extrabold text-[#002244] font-[poppins] text-[26px]">
+                    <p class="font-extrabold text-[#002244]  text-[26px]">
                       $3499.00
                     </p>
                   </div>

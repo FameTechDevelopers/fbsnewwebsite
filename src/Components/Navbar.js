@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-
 import {
   Menubar,
   MenubarContent,
@@ -60,13 +59,23 @@ const Navbar = () => {
                 </p>
               </MenubarTrigger>
               <MenubarContent className=" mt-6 shadow-lg border-2">
-                <MenubarItem>Mobile Application</MenubarItem>
+                <MenubarItem>
+                  <Link href="/services/mobile-dev">Mobile Application</Link>
+                </MenubarItem>
                 <MenubarItem>
                   <Link href="/services/web-dev">Web Development</Link>
                 </MenubarItem>
-                <MenubarItem>Digtal Marketing</MenubarItem>
-                <MenubarItem>2D / 3D Animation</MenubarItem>
-                <MenubarItem>Graphics Design</MenubarItem>
+                <MenubarItem>
+                  <Link href="/services/digital-marketing">
+                    Digtal Marketing
+                  </Link>
+                </MenubarItem>
+                <MenubarItem>
+                  <Link href="/services/animation">2D / 3D Animation</Link>
+                </MenubarItem>
+                <MenubarItem>
+                <Link href="/services/graphics">Graphics Design</Link>
+                </MenubarItem>
               </MenubarContent>
             </MenubarMenu>
           </Menubar>

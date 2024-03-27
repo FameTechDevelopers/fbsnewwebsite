@@ -1,6 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import WebsitePricing from "@/Components/WebsitePricing";
+import AnimationPricing from "@/Components/AnimationPricing";
+import Ux from "@/Components/Ux";
+import MobilePricing from "@/Components/MobilePricing";
 
 const Pricing = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -14,9 +17,9 @@ const Pricing = () => {
       <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] z-30 rounded-full">
         <button
           className={`${
-            activeTab === 0 ? "bg-[#002244] font-[poppins] text-white" : ""
+            activeTab === 0 ? "bg-[#002244]  text-white" : ""
           } 
-             py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
+             py-3 px-4 m-2 text-[14px]  lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(0);
@@ -26,9 +29,9 @@ const Pricing = () => {
         </button>
         <button
           className={`${
-            activeTab === 1 ? " bg-[#002244] font-[poppins] text-white" : ""
+            activeTab === 1 ? " bg-[#002244]  text-white" : ""
           } 
-        py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
+        py-3 px-4 m-2 text-[14px]  lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(1);
@@ -38,9 +41,9 @@ const Pricing = () => {
         </button>
         <button
           className={`${
-            activeTab === 2 ? "bg-[#002244] font-[poppins] text-white" : ""
+            activeTab === 2 ? "bg-[#002244]  text-white" : ""
           } 
-        py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
+        py-3 px-4 m-2 text-[14px]  lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(2);
@@ -50,9 +53,9 @@ const Pricing = () => {
         </button>
         <button
           className={`${
-            activeTab === 3 ? "  bg-[#002244] font-[poppins] text-white" : ""
+            activeTab === 3 ? "  bg-[#002244]  text-white" : ""
           } 
-        py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
+        py-3 px-4 m-2 text-[14px]  lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(3);
@@ -65,11 +68,11 @@ const Pricing = () => {
         {activeTab == 0 ? (
           <WebsitePricing />
         ) : activeTab == 1 ? (
-          <h2>Mobile Development</h2>
+          <MobilePricing />
         ) : activeTab == 2 ? (
-          <h2>Graphics</h2>
+          <AnimationPricing />
         ) : activeTab == 3 ? (
-          <h2>Social Media</h2>
+          <Ux />
         ) : null}
       </div>
     </div>

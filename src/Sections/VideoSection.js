@@ -12,7 +12,7 @@ const VideoSection = () => {
         <video
           loop
           autoPlay
-          className=" object-cover h-[554px] w-[100%]"
+          className=" object-cover h-[454px] w-[100%]"
           muted
           typeof="video/mp4"
           src="https://video-previews.elements.envatousercontent.com/h264-video-previews/06d49204-6728-4304-b336-f4e56dea6124/39125100.mp4"

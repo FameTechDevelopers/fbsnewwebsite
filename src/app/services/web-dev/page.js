@@ -28,12 +28,6 @@ const page = () => {
         <Image src={webmock} className=" mt-[-232px] relative z-10" />
       </div>
       <div className=" my-4">
-        {/* <div className=" w-[80%] mt-4 mb-12 mx-auto flex items-center justify-center">
-          <p className=" text-center font-medium text-[18px]">
-            Empowering positive change, One client at a time
-          </p>
-        </div> */}
-
         <div className="w-[80%] mx-auto grid grid-cols-12">
           <div className=" col-span-6">
             <Image className=" w-[100%] sticky top-24" src={webmock2} />
