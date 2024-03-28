@@ -158,7 +158,7 @@ const page = () => {
       </div>
 
       <div className="recognitions">
-        <div className="recognitions w-[80%] mx-auto mt mb-16 py-12">
+        <div className="recognitions w-[80%] mx-auto mt-16 mb-16 py-12">
           <h2 className=" text-white text-center leading-10 mb-10 font-bold text-[1.9rem]">
             Mobile development for various platforms
             <hr className=" bg-black h-1 mx-auto w-[40%] mt-3" />
@@ -425,6 +425,21 @@ const page = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className=" recognitions mb-16 py-24">
+        <div className=" grid grid-cols-12 w-[80%] mx-auto">
+          <div className="col-span-8 mx-auto flex items-center justify-center">
+            <h2 className=" text-white leading-10 font-bold text-[2.2rem]">
+              READY TO MAKE YOUR MOBILE APP MORE EFFECTIVE?
+              <hr className=" bg-black h-1 w-[50%] mt-3" />
+            </h2>
+          </div>
+
+          <div className="col-span-4 flex justify-center items-center">
+            <button className=" bg-[#009fd4] text-white text-[20px] py-3 px-8">Talk to Us</button>
           </div>
         </div>
       </div>

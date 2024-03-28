@@ -87,6 +87,30 @@ div#radix-\:r5\: {
   background-position: center;
   background-attachment: fixed;
 }
+.digital-marketing {
+  background-image: url(../assets/digital-marketing.jpg);
+  background-image: linear-gradient(
+      165deg,
+      rgb(0, 0, 43) 0%,
+      rgba(37, 170, 182, 0.777) 100%
+    ),
+    url(../assets/digital-marketing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.animation {
+  background-image: url(../assets/animation.jpg);
+  background-image: linear-gradient(
+      165deg,
+      rgb(0, 0, 43) 0%,
+      rgba(37, 170, 182, 0.777) 100%
+    ),
+    url(../assets/animation.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 .about-banner {
   background: rgb(0, 34, 68);
   background: linear-gradient(165deg, rgb(0 0 43) 0%, rgb(37 170 182) 100%);
