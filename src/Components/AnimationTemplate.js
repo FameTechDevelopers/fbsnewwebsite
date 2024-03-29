@@ -2,36 +2,29 @@ import React from "react";
 import { FaDotCircle } from "react-icons/fa";
 import animation from "../assets/Services/animation.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 const AnimationTemplate = () => {
   return (
-    <div className=" grid grid-cols-12 mt-12">
+    <div className=" grid grid-cols-12 mt-4">
       <div className=" col-span-8 pr-20">
-        <h2 className=" text-[26px] font-[500] mt-12 mb-2">
+        <h2 className=" text-[26px] font-[500] mt-6 mb-2">
           Our 2D/3D Animation service offers
         </h2>
-        <div className=" flex flex-wrap justify-between pt-5">
-          <div className="flex items-center my-2">
-            <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">Creative Concept Development</p>
-          </div>
-          <div className="flex items-center my-2">
-            <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">High-Quality Animation Production</p>
-          </div>
-          <div className="flex items-center my-2">
-            <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">Customized Character Design</p>
-          </div>
-          <div className="flex items-center my-2">
-            <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">Storyboarding and Scripting</p>
-          </div>
-          <div className="flex items-center my-2">
-            <FaDotCircle className=" mr-3" />
-            <p className=" text-[15px]">Post-Production Editing and Effects</p>
-          </div>
-        </div>
+        <p className="font-medium mb-6 text-[16px]">
+          Enter the realm of animation excellence with Fame Business Solutions. From
+          captivating 3D masterpieces to engaging 2D animations, we bring
+          stories to life with creativity and precision. Our team of skilled
+          animators and designers craft immersive experiences that captivate
+          audiences and leave a lasting impression. Join us as we animate the
+          extraordinary and push the boundaries of imagination.
+        </p>
+        <Link
+          href="/services/animation"
+          className=" bg-[#009fd4] text-white font-bold px-4 py-2 text-[18px]"
+        >
+          View more
+        </Link>
       </div>
       <div className="col-span-4">
         <Image className=" w-[90%] ml-auto rounded-2xl" src={animation} />
