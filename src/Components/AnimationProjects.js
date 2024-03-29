@@ -68,7 +68,7 @@ const AnimationProjects = () => {
                     src="https://fameitech.com/video_animations/videos/recent1.mp4"
                   />
                 </div>
-                <div className=" w-1/3 p-1 md:p-2">
+                {/* <div className=" w-1/3 p-1 md:p-2">
                 <video
                    loop
                    autoPlay
@@ -77,7 +77,7 @@ const AnimationProjects = () => {
                     className="block h-full w-full rounded-lg object-cover object-center "
                     src="https://fameitech.com/video_animations/videos/recent2.mp4"
                   />
-                </div>
+                </div> */}
                 <div className=" w-1/3 p-1 md:p-2">
                 <video
                    loop

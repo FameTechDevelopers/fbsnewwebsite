@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import mock from "../assets/mock-png.png";
+import mock2 from "../assets/mock2.png"
 import { BsTelephoneOutbound } from "react-icons/bs";
 import { FaRegAddressBook } from "react-icons/fa";
 import { FaRegPaperPlane } from "react-icons/fa";
@@ -20,6 +21,7 @@ const Footer = () => {
           fill="#002244"
         ></path>
       </svg>
+      <Image className="absolute bottom-0 h-[550px] z-[-99]" src={mock2} />
 
       <div className=" absolute bottom-0 right-48 w-[350px] m-0">
         <div className="bg-slate-600 h-9 w-[285px] top-7 text-white z-[-99] left-8 absolute"></div>
