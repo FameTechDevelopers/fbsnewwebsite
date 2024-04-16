@@ -17,10 +17,10 @@ const Testimonials = () => {
     <div className=" px-12 py-14 ">
       <div className=" md:w-[40%] mx-auto flex items-center justify-center"></div>
       <div className=" grid grid-cols-12 justify-center items-center">
-        <div className=" col-span-5">
+        <div className=" md:col-span-5 col-span-12">
           <Image src={img1} className=" w-[730px] mx-auto" />
         </div>
-        <div className="col-span-7">
+        <div className="md:col-span-7 col-span-12">
           <h2 className=" text-center leading-10 font-bold text-[2.5rem]">
             Testimonials
             <hr className=" bg-black h-1 w-[30%] mt-3 mx-auto" />

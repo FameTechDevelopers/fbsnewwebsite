@@ -7,7 +7,7 @@ import Link from "next/link";
 const DigitalMarketingTemplate = () => {
   return (
     <div className="grid grid-cols-12 mt-4">
-      <div className=" col-span-8 pr-20">
+      <div className=" md:col-span-8 col-span-12 md:pr-20">
         <h2 className="text-[26px] font-[500] mt-6 mb-2">
           Our Digital Marketing service encompasses
         </h2>
@@ -26,9 +26,9 @@ const DigitalMarketingTemplate = () => {
           View more
         </Link>
       </div>
-      <div className="col-span-4">
+      <div className="md:col-span-4 col-span-12">
         <Image
-          className=" w-[90%] ml-auto rounded-2xl"
+          className=" md:w-[90%]  md:mt-0 mt-8 ml-auto rounded-2xl"
           src={digitalMarketing}
         />
       </div>

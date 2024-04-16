@@ -12,7 +12,7 @@ const RequestCallback = () => {
   return (
     <div>
       <Sheet>
-        <SheetTrigger className=" bg-white text-[18px] border-2 z-[9999] border-[#a2a2a2] left-[-105px] fixed font-medium py-4 px-12 rotate-90">
+        <SheetTrigger className=" bg-white md:text-[18px] text-[16px] border-2 z-[9999] border-[#a2a2a2] md:left-[-105px] left-[-105px] fixed font-medium md:py-4 py-2 px-12 rotate-90">
           Request a Callback
         </SheetTrigger>
         <SheetContent

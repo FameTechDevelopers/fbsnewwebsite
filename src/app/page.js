@@ -25,7 +25,7 @@ export default function Home() {
   };
   return (
     <div>
-      <div className="hero-section h-[100dvh] relative">
+      <div className="hero-section md:h-[100dvh] h-auto lg:py-[100px] md:pt-[719px] pt-[830px] relative">
         <video
           loop
           autoPlay
@@ -34,9 +34,9 @@ export default function Home() {
           src="https://video-previews.elements.envatousercontent.com/h264-video-previews/263d54ac-7c5a-4758-8bfc-5593d9c74aa2/25346281.mp4"
           className="h-[100dvh] w-[100%] object-cover absolute inset-0"
         ></video>
-        <div className="min-h-[400px] bg-[#00000090] absolute w-[100%] inset-0">
+        <div className="lg:min-h-[400px] bg-[#00000090] absolute w-[100%] inset-0">
           <div className="flex flex-col justify-center items-center h-[100%] text-white py-0 px-10">
-            <h2 className="text-[5.5rem] leading-[95px] mb-6 text-center font-black">
+            <h2 className="lg:text-[5.5rem] md:text-[3.2rem] text-[2.5rem] lg:after:leading-[95px] mb-6 text-center font-black">
               We're Your <span className=" text-[#25aae1]">One-Stop Solution</span> for Efficient Apps Development
             </h2>
             <hr className="h-[6px] border-0 bg-[white] mt-2 mb-3 w-[20%]" />

@@ -8,14 +8,14 @@ import {
 
 const Faqs = () => {
   return (
-    <div className="my-16 pt-6 pb-6">
+    <div className="my-16 pt-6 px-6 pb-6">
       <div className=" md:w-[40%] mx-auto flex items-center justify-center">
-        <h2 className="  text-center leading-10 font-bold text-[2.5rem] mb-8">
+        <h2 className="  text-center leading-10 font-bold md:text-[2.5rem] text-[1.8rem] mb-8">
           FAQ's - Frequesntly asked questions
           <hr className=" bg-black h-1 w-[50%] mt-3 mx-auto" />
         </h2>
       </div>
-      <div className=" flex justify-center items-center w-[80%] mx-auto">
+      <div className=" md:flex justify-center items-center md:w-[80%] mx-auto">
         <Accordion
           type="single"
           collapsible

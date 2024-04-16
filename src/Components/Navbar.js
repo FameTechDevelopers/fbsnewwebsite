@@ -3,7 +3,8 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import Image from "next/image";
+import logo from "@/assets/fbs-white.png"
 import {
   Menubar,
   MenubarContent,
@@ -33,15 +34,15 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex justify-between px-24 z-[99] items-center w-full h-20 text-white fixed nav ${
+      className={`flex justify-between md:px-24 px-8 z-[99] items-center w-full h-20 text-white fixed nav ${
         scrolled ? "bg-black" : "bg-transparent h-28"
       } transition-all duration-300 ease-in-out`}
     >
       <div>
-        <h1 className="text-5xl font-signature ml-2">
+        <h1 className="text-5xl font-signature md:ml-2">
           <Link className="link-underline link-underline-black" href="/">
-            {/* <Image src={logo} /> */}
-            Fbs
+            {/* <Image className=" w-[160px] " src={logo} /> */}
+            <Image className=" w-[150px]" src={logo} />
           </Link>
         </h1>
       </div>

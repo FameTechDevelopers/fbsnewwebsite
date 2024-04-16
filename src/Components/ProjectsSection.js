@@ -13,15 +13,15 @@ const ProjectsSection = () => {
     <>
       <div
         id="services"
-        className=" md:w-[40%] mx-auto mt-20 flex items-center justify-center"
+        className=" md:w-[40%] mx-auto px-10 mt-20 flex items-center justify-center"
       >
-        <h2 className=" text-center leading-10 font-bold text-[1.9rem]">
+        <h2 className=" text-center leading-10 font-bold md:text-[1.9rem] text-[1.5rem]">
           From Innovative Mobile Apps to Dynamic E-Commerce Solutions and
           Beyond!
           {/* <hr className=" bg-black h-1 w-[50%] mt-3 mx-auto" /> */}
         </h2>
       </div>
-      <div className=" w-[40%] mt-6 mb-12 mx-auto flex items-center justify-center">
+      <div className=" md:w-[40%] px-10 mt-6 mb-12 mx-auto flex items-center justify-center">
         <p className="  text-center font-medium text-[18px]">
           At Fame Business Solutions, our experienced team specializes in
           all-inclusive app design and development services.
@@ -80,7 +80,7 @@ const ProjectsSection = () => {
             Graphic Design
           </button>
         </div>
-        <div className=" px-16 ">
+        <div className=" md:px-16 px-6 ">
           {activeTab == 0 ? (
             <MobileDevTemplate />
           ) : activeTab == 1 ? (
