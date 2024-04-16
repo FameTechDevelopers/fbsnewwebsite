@@ -39,7 +39,7 @@ const page = () => {
       <div>
         {/* <Image src={mobileDev} className=" mt-[-232px] relative z-10" /> */}
         <div className=" md:w-[40%] mx-auto mt-20 flex items-center justify-center">
-          <h2 className=" text-center leading-10 font-bold text-[2.5rem]">
+          <h2 className=" text-center leading-10 font-bold md:text-[2.5rem] text-[1.8rem]">
             Our <span className=" text-[#009fd4] font-[800]">Expertise</span>
             <hr className=" bg-black h-1 w-[50%] mt-3 mx-auto" />
           </h2>
@@ -55,11 +55,11 @@ const page = () => {
         </div>
       </div>
 
-      <div className="w-[80%] mx-auto grid grid-cols-12">
-        <div className=" col-span-6">
+      <div className="md:w-[80%] mx-auto grid grid-cols-12">
+        <div className=" md:col-span-6 col-span-12">
           <Image className=" w-[100%] sticky top-24" src={mobileDev} />
         </div>
-        <div className=" col-span-6 pl-20">
+        <div className=" md:col-span-6 col-span-12 md:pl-20">
           <h2 className=" leading-10 mb-14 font-bold text-[2.5rem]">
             Our Process
             <hr className=" bg-black h-1 w-[150px] mt-3" />
