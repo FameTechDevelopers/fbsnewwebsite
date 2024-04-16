@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex justify-between md:px-24 px-8 z-[99] items-center w-full h-20 text-white fixed nav ${
+      className={`flex justify-between md:px-24 px-8 z-[99] items-center w-full h-24 text-white fixed nav ${
         scrolled ? "bg-black" : "bg-transparent h-28"
       } transition-all duration-300 ease-in-out`}
     >
@@ -42,7 +42,7 @@ const Navbar = () => {
         <h1 className="text-5xl font-signature md:ml-2">
           <Link className="link-underline link-underline-black" href="/">
             {/* <Image className=" w-[160px] " src={logo} /> */}
-            <Image className=" w-[150px]" src={logo} />
+            <Image className=" w-[140px]" src={logo} />
           </Link>
         </h1>
       </div>
