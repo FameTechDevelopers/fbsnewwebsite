@@ -59,10 +59,10 @@ const page = () => {
         <div className=" md:col-span-6 col-span-12">
           <Image className=" w-[100%] sticky top-24" src={mobileDev} />
         </div>
-        <div className=" md:col-span-6 col-span-12 md:pl-20">
-          <h2 className=" leading-10 mb-14 font-bold text-[2.5rem]">
+        <div className=" md:col-span-6 col-span-12 md:pl-20 px-10">
+          <h2 className=" leading-10 mb-14 md:text-start text-center font-bold md:text-[2.5rem] text-[1.8rem]">
             Our Process
-            <hr className=" bg-black h-1 w-[150px] mt-3" />
+            <hr className=" bg-black md:mx-0 mx-auto h-1 w-[150px] mt-3" />
           </h2>
 
           <div className=" flex mb-4">
@@ -164,7 +164,7 @@ const page = () => {
             <hr className=" bg-black h-1 mx-auto w-[40%] mt-3" />
           </h2>
           <div className="grid grid-cols-12">
-            <div className=" col-span-3 m-8">
+            <div className=" md:col-span-3 col-span-12 m-8">
               <h2 className="text-white font-bold text-[22px]">
                 Native Mobile App Development
               </h2>
@@ -174,7 +174,7 @@ const page = () => {
                 security requirements.
               </p>
             </div>
-            <div className=" col-span-3 m-8">
+            <div className=" md:col-span-3 col-span-12 m-8">
               <h2 className="text-white font-bold text-[22px]">
                 Hybrid Mobile App Development
               </h2>
@@ -183,7 +183,7 @@ const page = () => {
                 thanks to a unique blend of native and web app technologies.
               </p>
             </div>
-            <div className=" col-span-3 m-8">
+            <div className=" md:col-span-3 col-span-12 m-8">
               <h2 className="text-white font-bold text-[22px]">
                 Progressive Web App Development
               </h2>
@@ -193,7 +193,7 @@ const page = () => {
                 device with a single codebase.
               </p>
             </div>
-            <div className=" col-span-3 m-8">
+            <div className=" md:col-span-3 col-span-12 m-8">
               <h2 className="text-white font-bold text-[22px]">
                 Wearables and Embedded Software
               </h2>
@@ -222,8 +222,8 @@ const page = () => {
         </div>
 
         {/* ISO development */}
-        <div className="w-[80%] mt-24 mx-auto grid grid-cols-12">
-          <div className=" col-span-6">
+        <div className="md:w-[80%] mt-24 mx-auto grid grid-cols-12">
+          <div className=" md:col-span-6 col-span-12">
             <h2 className="leading-10 font-bold text-[1.7rem]">
               iOS App Development
             </h2>
@@ -246,7 +246,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className=" col-span-6 mt-10 pl-20">
+          <div className=" md:col-span-6 col-span-12 mt-10 md:pl-20">
             <div className=" flex mb-4">
               <div className="bg-[#25a9e138] mr-10 rounded-full h-10 w-10 flex justify-center items-center p-2">
                 {/* <h2 className=" text-[20px] text-white font-bold">1</h2> */}
@@ -290,8 +290,8 @@ const page = () => {
         </div>
 
         {/* Android development */}
-        <div className="w-[80%] mt-32 mx-auto grid grid-cols-12">
-          <div className=" col-span-6">
+        <div className="md:w-[80%] mt-32 mx-auto grid grid-cols-12">
+          <div className=" md:col-span-6 col-span-12">
             <h2 className="leading-10 font-bold text-[1.7rem]">
               Android App Development
             </h2>
@@ -311,7 +311,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className=" col-span-6 mt-10 pl-20">
+          <div className=" md:col-span-6 col-span-12 mt-10 md:pl-20">
             <div className=" flex mb-4">
               <div className="bg-[#25a9e138] mr-10 rounded-full h-10 w-10 flex justify-center items-center p-2">
                 {/* <h2 className=" text-[20px] text-white font-bold">1</h2> */}
@@ -367,8 +367,8 @@ const page = () => {
         </div>
 
         {/* Cross platform development */}
-        <div className="w-[80%] mt-32 mx-auto grid grid-cols-12 mb-16">
-          <div className=" col-span-6">
+        <div className="md:w-[80%] mt-32 mx-auto grid grid-cols-12 mb-16">
+          <div className=" md:col-span-6 col-span-12">
             <h2 className="leading-10 font-bold text-[1.7rem]">
               Cross-platform App Development
             </h2>
@@ -393,7 +393,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className=" col-span-6 mt-10 pl-20">
+          <div className=" md:col-span-6 col-span-12 mt-10 md:pl-20">
             <div className=" flex mb-4">
               <div className="bg-[#25a9e138] mr-10 rounded-full h-10 w-10 flex justify-center items-center p-2">
                 {/* <h2 className=" text-[20px] text-white font-bold">1</h2> */}
@@ -429,16 +429,16 @@ const page = () => {
         </div>
       </div>
 
-      <div className=" recognitions mb-16 py-24">
+      <div className=" recognitions w-full mb-16 py-24">
         <div className=" grid grid-cols-12 w-[80%] mx-auto">
-          <div className="col-span-8 mx-auto flex items-center justify-center">
+          <div className="md:col-span-8 col-span-12 mx-auto flex items-center justify-center">
             <h2 className=" text-white leading-10 font-bold text-[2.2rem]">
               READY TO MAKE YOUR MOBILE APP MORE EFFECTIVE?
               <hr className=" bg-black h-1 w-[50%] mt-3" />
             </h2>
           </div>
 
-          <div className="col-span-4 flex justify-center items-center">
+          <div className="md:col-span-4 col-span-12 flex justify-center items-center">
             <button className=" bg-[#009fd4] text-white text-[20px] py-3 px-8">Talk to Us</button>
           </div>
         </div>

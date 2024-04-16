@@ -24,8 +24,8 @@ const page = () => {
           </p>
         </div>
       </div>
-      <div className="w-[80%] mt-20 mb-32 mx-auto grid grid-cols-12">
-        <div className=" col-span-6">
+      <div className="md:w-[80%] mt-20 mb-32 mx-auto grid grid-cols-12">
+        <div className=" md:col-span-6 px-10 col-span-12">
           <h2 className=" leading-10 mb-4 font-bold text-[2.5rem]">
             What our Graphic Design Services Can Do For You
           </h2>
@@ -45,18 +45,18 @@ const page = () => {
             and attract more customers with our expert graphic design solutions.
           </p>
         </div>
-        <div className=" col-span-6 flex justify-center">
+        <div className=" md:col-span-6 col-span-12 flex justify-center">
           <Image className=" w-[600px] object-cover" src={graphicsDesign} />
         </div>
       </div>
 
-      <div className=" w-[80%] mx-auto grid grid-cols-12">
-        <div className=" col-span-6 flex">
+      <div className=" md:w-[80%] mx-auto grid grid-cols-12">
+        <div className=" md:col-span-6 col-span-12 flex">
           <div>
             <Image className=" w-[560px]" src={graphicCharacter} />
           </div>
         </div>
-        <div className=" col-span-6">
+        <div className=" md:col-span-6 px-10 col-span-12">
           <h2 className=" leading-10 mb-6 font-bold text-[2.5rem]">
             Design Solutions
             <hr className=" bg-black h-1 w-[150px] mt-3" />

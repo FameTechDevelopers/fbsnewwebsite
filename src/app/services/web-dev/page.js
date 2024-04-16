@@ -29,10 +29,10 @@ const page = () => {
       </div>
       <div className=" my-4">
         <div className="w-[80%] mx-auto grid grid-cols-12">
-          <div className=" col-span-6">
+          <div className=" md:col-span-6 col-span-12">
             <Image className=" w-[100%] sticky top-24" src={webmock2} />
           </div>
-          <div className=" col-span-6 pl-20">
+          <div className=" md:col-span-6 col-span-12 md:pl-20">
             <h2 className=" leading-10 mb-14 font-bold text-[2.5rem]">
               Our Process
               <hr className=" bg-black h-1 w-[150px] mt-3" />

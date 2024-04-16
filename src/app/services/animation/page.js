@@ -39,8 +39,8 @@ const page = () => {
         </div>
       </div>
 
-      <div className="w-[80%] mt-20 mx-auto grid grid-cols-12">
-        <div className=" col-span-6">
+      <div className="md:w-[80%] px-10 mt-20 mx-auto grid grid-cols-12">
+        <div className=" md:col-span-6 col-span-12">
           <h2 className=" leading-10 mb-4 font-bold text-[2.5rem]">
             Turning Your Ideas Into Visuals
           </h2>
@@ -52,7 +52,7 @@ const page = () => {
             business to new heights of success.
           </p>
         </div>
-        <div className=" col-span-6 flex justify-center">
+        <div className=" md:col-span-6 col-span-12 flex justify-center">
           <Image className=" w-[600px]" src={sapparow} />
         </div>
       </div>
@@ -91,12 +91,12 @@ const page = () => {
         <div className=" ">
           {activeTab == 0 ? (
             <div className=" grid grid-cols-12">
-              <div className=" col-span-6 flex justify-center">
+              <div className=" md:col-span-6 col-span-12 flex justify-center">
                 <div>
                   <Image className=" w-[400px]" src={character1} />
                 </div>
               </div>
-              <div className=" col-span-6">
+              <div className=" md:col-span-6 px-10 col-span-12">
                 <h2 className=" leading-10 mb-6 font-bold text-[2.5rem]">
                   3D Animation
                   {/* <hr className=" bg-black h-1 w-[150px] mt-3" /> */}
@@ -234,7 +234,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center w-[80%] mx-auto">
+      <div className="md:flex justify-center items-center w-[80%] mx-auto">
         <Accordion
           type="single"
           collapsible

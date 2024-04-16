@@ -33,8 +33,8 @@ const page = () => {
 
       <div>
         {/* <Image src={mobileDev} className=" mt-[-232px] relative z-10" /> */}
-        <div className=" md:w-[40%] mx-auto mt-20">
-          <h2 className=" text-center leading-10 font-medium text-[2.2rem]">
+        <div className=" md:w-[40%] px-10 mx-auto mt-20">
+          <h2 className=" text-center leading-10 font-medium md:text-[2.2rem] text-[1.6rem]">
             OUR IT TRANSFORMATION SERVICES
             <hr className=" bg-black h-1 w-[50%] mt-3 mx-auto" />
           </h2>
@@ -48,8 +48,8 @@ const page = () => {
       </div>
 
       <div className="my-16 pt-6 pb-6">
-        <div className=" grid grid-cols-12 w-[80%] mx-auto">
-          <div className=" col-span-6 flex">
+        <div className=" grid grid-cols-12 md:w-[80%] mx-auto">
+          <div className=" md:col-span-6 col-span-12 flex">
             <Accordion
               type="single"
               collapsible
@@ -113,7 +113,7 @@ const page = () => {
               </AccordionItem>
             </Accordion>
           </div>
-          <div className=" col-span-6 flex justify-center">
+          <div className=" md:col-span-6 col-span-12 flex justify-center">
             <Image
               className=" lg:w-[600px] h-[400px] object-cover"
               src={girlImage}
@@ -124,16 +124,16 @@ const page = () => {
 
       <div className="my-16 pt-6 pb-6">
         <div className=" md:w-[40%] mx-auto mt-20">
-          <h2 className=" text-center leading-10 font-medium text-[2.2rem]">
+          <h2 className=" text-center leading-10 font-medium md:text-[2.2rem] text-[1.6rem]">
             How Digital Marketing Services Drive Business Growth
             <hr className=" bg-black h-1 w-[50%] mt-3 mx-auto" />
           </h2>
         </div>
         <div className=" container grid grid-cols-12 mt-6 w-[80%] mx-auto">
-          <div className=" col-span-6">
+          <div className=" md:col-span-6 col-span-12">
             <Image className=" w-[550px]" src={digitalProcess} />
           </div>
-          <div className=" col-span-6 flex justify-center items-center">
+          <div className=" md:col-span-6 col-span-12 flex justify-center items-center">
             <p className="font-[400] mt-6 ">
               Digital marketing services offer businesses the chance to promote
               their brand around the clock at an affordable price. Whether
