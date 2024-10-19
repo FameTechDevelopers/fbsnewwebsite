@@ -58,14 +58,14 @@ const Footer = () => {
                 <li class="mb-8 text-[20px] flex items-center">
                   <BsTelephoneOutbound className="text-[#7ed6f3] text-[36px] mr-2" />
                   <a href="#" class="font-[400] text-white ">
-                    +923338539146
+                    +923262226222
                   </a>
                 </li>
                 <li class="mb-8 text-[20px] flex items-center">
                   <FaRegAddressBook className="text-[#7ed6f3] text-[36px] mr-2" />
                   <a href="#" class="font-[400] text-white">
-                    Office # 214, 2nd floor, The plaza <br /> shopping center,
-                    Clifton Block 9, Karachi
+                  Plot FL, A-5, 3 Nehr-e-Khayyam St<br />
+                    Clifton Block 5, Karachi
                   </a>
                 </li>
                 <li class="text-[20px] flex items-center">
@@ -87,14 +87,14 @@ const Footer = () => {
               <li class="mb-8 text-[20px] flex items-center">
                 <BsTelephoneOutbound className="text-[#7ed6f3] text-[36px] mr-2" />
                 <a href="#" class="font-[400] text-white ">
-                  +923338539146
+                  +923262226222
                 </a>
               </li>
               <li class="mb-8 text-[20px] flex items-center">
                 <FaRegAddressBook className="text-[#7ed6f3] text-[36px] mr-2" />
                 <a href="#" class="font-[400] text-white">
-                  Office # 214, 2nd floor, The plaza <br /> shopping center,
-                  Clifton Block 9, Karachi
+                Plot FL, A-5, 3 Nehr-e-Khayyam St<br />
+                Clifton Block 5, Karachi
                 </a>
               </li>
               <li class="text-[20px] flex items-center">

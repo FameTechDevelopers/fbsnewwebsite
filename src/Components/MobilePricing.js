@@ -47,7 +47,7 @@ const MobilePricing = () => {
               </p>
 
               <a
-                href="tel:+923338539146"
+                href="tel:+923262226222"
                 class="inline-flex bg-[#002244] items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white"
               >
                 Call Us

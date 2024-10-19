@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
   return (
@@ -22,7 +22,7 @@ const Contact = () => {
               marginheight="0"
               marginwidth="0"
               scrolling="no"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=the%20plaza%20shopping+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17973.604240204448!2d67.0329225!3d24.8254025!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33da2da81ca25%3A0xbda85f79945efeb3!2sFameWheels!5e1!3m2!1sen!2s!4v1729331107395!5m2!1sen!2s"
             ></iframe>
             <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div class="lg:w-1/2 px-6">
@@ -30,19 +30,20 @@ const Contact = () => {
                   ADDRESS
                 </h2>
                 <p class="mt-1">
-                  Office # 214, 2nd floor, The plaza shopping center, Clifton
-                  Block 9, Karachi
+                  Plot FL, A-5, 3 Nehr-e-Khayyam St Clifton Block 5, Karachi
                 </p>
               </div>
               <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a class="text-red-500 leading-relaxed">info@famebusinesssolutions.com</a>
+                <a class="text-red-500 leading-relaxed">
+                  info@famebusinesssolutions.com
+                </a>
                 <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p class="leading-relaxed">+923338539146</p>
+                <p class="leading-relaxed">+923262226222</p>
               </div>
             </div>
           </div>
@@ -96,7 +97,7 @@ const Contact = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
