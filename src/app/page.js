@@ -11,6 +11,7 @@ import Contact from "../Sections/Contact";
 import Portofolio from "../Sections/Portofolio";
 import Pricing from "../Sections/Pricing";
 import Process from "../Sections/Process";
+import FeaturedProducts from "@/Components/FeaturedProducts";
 
 export default function Home() {
   const scrollRef = useRef(null);
@@ -74,6 +75,7 @@ export default function Home() {
       <Benefits />
       <ProjectsSection />
       <VideoSection />
+      <FeaturedProducts />
       <Portofolio />
       <Process />
       <Testimonials />
