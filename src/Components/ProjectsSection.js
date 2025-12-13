@@ -31,53 +31,63 @@ const ProjectsSection = () => {
         <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] z-30 rounded-full">
           <button
             className={`${activeTab === 0 ? "bg-[#002244] text-white" : ""} 
-             py-3 px-4 m-2 text-[14px]  lg:text-[18px] text-[#838383]`}
+             py-3 px-4 m-2 text-[14px] rounded-md  lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(0);
             }}
           >
-            Mobile Development
+            FameWheels
           </button>
           <button
             className={`${activeTab === 1 ? " bg-[#002244]  text-white" : ""} 
-        py-3 px-4 m-2 text-[14px]  lg:text-[18px] text-[#838383]`}
+        py-3 px-4 m-2 text-[14px] rounded-md  lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(1);
             }}
           >
-            Web Development
+            Fame Business Solutions
           </button>
           <button
             className={`${activeTab === 2 ? "bg-[#002244]  text-white" : ""} 
-        py-3 px-4 m-2 text-[14px]  lg:text-[18px] text-[#838383]`}
+        py-3 px-4 m-2 text-[14px] rounded-md  lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(2);
             }}
           >
-            Digital Marketing
+            FameItech
           </button>
           <button
             className={`${activeTab === 3 ? "  bg-[#002244]  text-white" : ""} 
-        py-3 px-4 m-2 text-[14px]  lg:text-[18px] text-[#838383]`}
+        py-3 px-4 m-2 text-[14px] rounded-md  lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(3);
             }}
           >
-            2D / 3D Animation
+            Fame HealthCare Tech
           </button>
           <button
             className={`${activeTab === 4 ? "  bg-[#002244]  text-white" : ""} 
-        py-3 px-4 m-2 text-[14px]  lg:text-[18px] text-[#838383]`}
+        py-3 px-4 m-2 text-[14px] rounded-md  lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(4);
             }}
           >
-            Graphic Design
+            Fame Media House
+          </button>
+          <button
+            className={`${activeTab === 4 ? "  bg-[#002244]  text-white" : ""} 
+        py-3 px-4 m-2 text-[14px] rounded-md  lg:text-[18px] text-[#838383]`}
+            type="button"
+            onClick={() => {
+              setActiveTab(4);
+            }}
+          >
+            Elite Taxation
           </button>
         </div>
         <div className=" md:px-16 px-6 ">
