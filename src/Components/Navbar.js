@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Image from "next/image";
-import logo from "@/assets/fbs-white.png"
+import logo from "@/assets/fbs-white.png";
 import {
   Menubar,
   MenubarContent,
@@ -56,10 +56,31 @@ const Navbar = () => {
             <MenubarMenu>
               <MenubarTrigger className=" menu-bar">
                 <p className="nav-links px-4 cursor-pointer capitalize text-[17px] font-[400] text-white hover:scale-105 duration-200 link-underline">
-                  SERVICES
+                  VENTURES
                 </p>
               </MenubarTrigger>
+
               <MenubarContent className=" mt-6 shadow-lg border-2">
+                <MenubarItem>
+                  <Link href="#">FameWheels</Link>
+                </MenubarItem>
+                <MenubarItem>
+                  <Link href="#">Fame Business Solutions</Link>
+                </MenubarItem>
+                <MenubarItem>
+                  <Link href="#">FameItech</Link>
+                </MenubarItem>
+                <MenubarItem>
+                  <Link href="#">Fame HealthCare Tech</Link>
+                </MenubarItem>
+                <MenubarItem>
+                  <Link href="#">Fame Media House</Link>
+                </MenubarItem>
+                <MenubarItem>
+                  <Link href="#">Elite Taxation</Link>
+                </MenubarItem>
+              </MenubarContent>
+              {/* <MenubarContent className=" mt-6 shadow-lg border-2">
                 <MenubarItem>
                   <Link href="/services/mobile-dev">Mobile Application</Link>
                 </MenubarItem>
@@ -75,9 +96,9 @@ const Navbar = () => {
                   <Link href="/services/animation">2D / 3D Animation</Link>
                 </MenubarItem>
                 <MenubarItem>
-                <Link href="/services/graphics">Graphics Design</Link>
+                  <Link href="/services/graphics">Graphics Design</Link>
                 </MenubarItem>
-              </MenubarContent>
+              </MenubarContent> */}
             </MenubarMenu>
           </Menubar>
           {/* <DropdownMenu>
@@ -107,6 +128,9 @@ const Navbar = () => {
         <li className="nav-links px-4 cursor-pointer capitalize text-[17px] font-[400] text-white hover:scale-105 duration-200 link-underline">
           <Link href="investment">STARTUP INVESTMENT</Link>
         </li>
+        <li className="nav-links px-4 cursor-pointer capitalize text-[17px] font-[400] text-white hover:scale-105 duration-200 link-underline">
+          <Link href="#">BPC</Link>
+        </li>
       </ul>
 
       <div
@@ -118,7 +142,9 @@ const Navbar = () => {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-          <li className="px-4 cursor-pointer capitalize py-6 md:text-4xl text-3xl text-center">HOME</li>
+          <li className="px-4 cursor-pointer capitalize py-6 md:text-4xl text-3xl text-center">
+            HOME
+          </li>
           <li className="px-4 cursor-pointer capitalize py-6 md:text-4xl text-3xl text-center">
             <a>SERVICES</a>
           </li>
