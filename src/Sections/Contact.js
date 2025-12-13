@@ -5,7 +5,7 @@ const Contact = () => {
     <div className=" bg-[#7ed6f31c] mb-16 py-16">
       <div className=" md:w-[40%] mx-auto flex items-center justify-center">
         <h2 className=" text-center leading-10 font-bold text-[2.5rem] mb-8">
-          Get a quote!
+          Contact Us
           <hr className=" bg-black h-1 w-[50%] mt-3 mx-auto" />
         </h2>
       </div>
@@ -87,7 +87,7 @@ const Contact = () => {
               />
             </div>
             <button class="text-white bg-[#009fd4] border-0 py-2 px-6 focus:outline-none hover:bg-[#2aafdb] rounded text-lg">
-              Button
+              Submit
             </button>
             <p class="text-xs text-gray-500 mt-3">
               Chicharrones blog helvetica normcore iceland tousled brook viral
