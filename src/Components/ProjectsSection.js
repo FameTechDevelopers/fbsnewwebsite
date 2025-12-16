@@ -10,6 +10,7 @@ import FameHealthcareTemplate from "./FameHealthCareTemplate";
 import FameMediaHouseTemplate from "./FameMediaHouseTemplate";
 import FameEliteTaxationTemplate from "./FameEliteTaxationTemplate";
 import FameHRTemplate from "./FameHRTemplate";
+import FameOilAndGasTemplate from "./FameOilAndGasTemplate";
 
 const ProjectsSection = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -113,7 +114,7 @@ const ProjectsSection = () => {
             <FameEliteTaxationTemplate />
           ) : activeTab == 5 ? (
             // <GraphicsDesignTemplate />
-            <></>
+            <FameOilAndGasTemplate />
           ) : null}
         </div>
       </div>
