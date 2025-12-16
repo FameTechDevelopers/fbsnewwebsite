@@ -30,18 +30,18 @@ const FameHRTemplate = () => {
             management.
           </p>
 
-          <Link
+          {/* <Link
             // target="_blank"
             href="#"
             className="inline-block bg-[#009fd4] text-white font-semibold px-12 py-2 text-[14px] rounded-md hover:opacity-90 transition"
           >
             View more
-          </Link>
+          </Link> */}
         </div>
 
         <div className="md:col-span-4 col-span-12 flex justify-center md:justify-end">
           <Image
-            className="md:w-[90%] mt-8 md:mt-0 rounded-2xl"
+            className="md:w-[60%] mt-8 md:mt-0 rounded-2xl"
             src={fameHrlogo}
             alt="Fame HR Platform"
             priority
