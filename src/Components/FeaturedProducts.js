@@ -36,7 +36,7 @@ const FeaturedProduct = () => {
               href="https://www.famewheels.com"
               target="_blank"
               rel="noopener noreferrer"
-              className=" bg-[#009fd4] text-white font-bold px-4 py-2 text-[18px]"
+              className=" bg-[#009fd4] text-white rounded-md font-semibold px-14 py-2 text-[14px]"
             >
               View more
             </Link>
