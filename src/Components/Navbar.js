@@ -129,7 +129,7 @@ const Navbar = () => {
           <Link href="investment">STARTUP INVESTMENT</Link>
         </li>
         <li className="nav-links px-4 cursor-pointer capitalize text-[17px] font-[400] text-white hover:scale-105 duration-200 link-underline">
-          <Link href="#">BPC</Link>
+          <Link href="/bpc">BPC</Link>
         </li>
       </ul>
 
